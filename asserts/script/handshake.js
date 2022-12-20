@@ -9,24 +9,27 @@ function binary () {
 
   const range = [1000, 100, 10, 1]
   const text = ['jump', 'close your eyes', 'double blink', 'wink']
+  if (numb > 0) {
+    const valid = result - 10000 > 0
 
-  const valid = result - 10000 > 0
-
-  if (valid) {
-    result -= 10000
-  }
-  const ans = []
-
-  for (let i = 0; i < range.length; i++) {
-    if (result - range[i] >= 0) {
-      result -= range[i]
-      ans.push(text[i])
+    if (valid) {
+      result -= 10000
     }
+    const ans = []
+
+    for (let i = 0; i < range.length; i++) {
+      if (result - range[i] >= 0) {
+        result -= range[i]
+        ans.push(text[i])
+      }
+    }
+    if (!valid) {
+      ans.reverse()
+    }
+    return ans.join(', ')
+  } else {
+    alert('enter a number greater than 0')
   }
-  if (!valid) {
-    ans.reverse()
-  }
-  return ans.join(', ')
 }
 
 done.addEventListener('click', () => {

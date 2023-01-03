@@ -1,16 +1,15 @@
-# Balance
+# handshake
 
-This project is named spring balance.
+This project is named secret handshake.
 
 ## APP
 
-![spring](asserts/styles/images/spring.png)
+![hand](asserts/images/hand.png)
 
 ## ABOUT
 
-The spring balance enables the user to input two diffrent masses.
-another field is reserve to input a list of number that we help us
-balance the masses if they are unbalance.
+This app decodes a number to binary then converts
+the binary number to a sequence events
 
 ## Built With
 
@@ -22,13 +21,13 @@ balance the masses if they are unbalance.
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with
-`https://github.com/kadjialan/balance-page-js` using your terminal.
-- Change to the project directory by entering: cd wedding in the terminal.
+`https://github.com/kadjialan/secrethandshake-page-js` using your terminal.
+- Change to the project directory by entering: cd handshake in the terminal.
 
 ## Command-line steps
 
-- $ git clone `$ https://github.com/kadjialan/balance-page-js`
-- $ `cd balance`
+- $ git clone `$ https://github.com/kadjialan/secrethandshake-page-js`
+- $ `cd handshake`
 - $ `git checkout feature/design`
 
 ## Start App
@@ -45,7 +44,7 @@ Knowledge about:
 
 ## Live Site
 
-[Link]( https://kadjialan.github.io/balance-page-js/)
+[Link]( https://kadjialan.github.io/secrethandshake-page-js/)
 
 ## Author
 
@@ -57,7 +56,7 @@ Knowledge about:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kadjialan/balance-page-js/issues).
+Feel free to check the [issues page](https://github.com/kadjialan/secrethandshake-page-js/issues).
 
 ## Show your support
 
